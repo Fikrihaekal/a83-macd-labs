@@ -29,7 +29,7 @@
     $host = "<fikriwebappserver.database.windows.net>";
     $user = "<fikrihaekal>";
     $pass = "<fikri16.>";
-    $db = "<fikrihaekalwebpp>";
+    $db = "<fikrihaekalwebapp>";
 
     try {
         $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
