@@ -52,7 +52,7 @@
             $stmt->bindValue(2, $email);
             $stmt->bindValue(3, $job);
             $stmt->bindValue(4, $date);
-            $stmt->execute(main);
+            $stmt->execute();
         } catch(Exception $e) {
             echo "Failed: " . $e;
         }
