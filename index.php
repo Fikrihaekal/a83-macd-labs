@@ -27,7 +27,7 @@
  </form>
  <?php
     $host = "fikriwebappserver.database.windows.net";
-    $user = "android";
+    $user = "fikrihaekal";
     $pass = "fikri16.";
     $db = "fikrihaekalwebapp";
 
