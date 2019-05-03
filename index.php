@@ -26,10 +26,10 @@
        <input type="submit" name="load_data" value="Load Data" />
  </form>
  <?php
-    $host = "androidwebappserver.database.windows.net";
-    $user = "android";
-    $pass = "fikri12345.";
-    $db = "androidwebapp";
+    $host = "digitalgapura.database.windows.net";
+    $user = "Fikrihaekal";
+    $pass = "panjulteknik16.";
+    $db = "Gapurawebapp";
 
     try {
         $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
