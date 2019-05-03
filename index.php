@@ -29,7 +29,7 @@
     $host = "androidwebappserver.database.windows.net";
     $user = "android";
     $pass = "fikri12345.";
-    $db = "androidwebappserver";
+    $db = "androidwebapp";
 
     try {
         $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
