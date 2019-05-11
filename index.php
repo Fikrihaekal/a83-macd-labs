@@ -26,10 +26,10 @@
        <input type="submit" name="load_data" value="Load Data" />
  </form>
  <?php
-    $host = "digitalgapura.database.windows.net";
-    $user = "Fikrihaekal";
-    $pass = "panjulteknik16.";
-    $db = "Gapurawebapp";
+    $host = "teknikelektronikawebappserver.database.windows.net";
+    $user = "Cloudcomputing";
+    $pass = "fikrihaekal16.";
+    $db = "teknikelektronikadatabase";
 
     try {
         $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
